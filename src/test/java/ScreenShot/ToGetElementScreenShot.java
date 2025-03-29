@@ -1,4 +1,4 @@
-package ScreenShot;
+ package ScreenShot;
 
 import java.io.File;
 import java.io.IOException;
@@ -25,6 +25,7 @@ public class ToGetElementScreenShot {
 	 File dest = new File("./Screenshot/Webelement.png");
 	 FileHandler.copy(temp, dest);
  		
+
 	}	
 		
 		

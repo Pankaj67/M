@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <test name="TestNG Parameter Test">
+        <parameter name="pankaj" value="automation" />
+        <classes>
+            <class name="your.package.name.TestNgParameter" />
+        </classes>
+    </test> <!-- TestNG Parameter Test -->
+</suite> <!-- Suite -->

@@ -24,7 +24,7 @@ public class WindowsScrolling {
 //	js.executeScript("window.scrollTo(2000,500)"); // co-ordinate calculated from origin 
  // js.executeScript("window.scrollTo(0,document.body.scrollHeight)"); // scroll till bottom of the web page 
 	
-		js.executeScript("history.go()");
+	// js.executeScript("history.go()"); //refresh the web page 
 		
 	}
 

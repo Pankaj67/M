@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite  name="Functional">
+  <test name="fucntional batch test">
+    <classes>
+     
+       <class name="MBatchTesting./LoginTest.java"/>
+    </classes>
+  </test> 
+</suite> <!-- Suite -->
+  

@@ -23,14 +23,8 @@ public class ToLearnScreenShot {
 	 File  temp=  	ts.getScreenshotAs(OutputType.FILE);
 	 File dest = new File("./Screenshot/"+timeStamp+".png");
 	 FileHandler.copy(temp, dest);
- 		
-		
-		
-		
-		
-		
-		
-		
+ 		System.out.println("ok");
+				
 		
 	}
 
