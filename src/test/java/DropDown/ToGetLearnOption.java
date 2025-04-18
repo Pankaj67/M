@@ -25,15 +25,7 @@ public static void main(String[] args) {
 List<WebElement>  alloption = year.getOptions();	
 System.out.println(alloption.size());
 	
-
-
-//for ( WebElement ele :alloption)
-//{
-//	
-//	System.out.println(ele.getText());
-//	}
-//
-//}
+ // sorte
 
 int count = alloption.size()-2;
 
@@ -52,11 +44,6 @@ for ( WebElement ele :alloption)
 	
 	System.out.println(ele.getText());
 	}
-
-
-
-
-
 
 }
 

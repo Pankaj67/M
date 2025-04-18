@@ -19,13 +19,15 @@ public class ToLearnDragAndDrop {
 	WebElement photoframe= 	driver.findElement(By.xpath("//iframe[@class='demo-frame lazyloaded']"));
 	
 	driver.switchTo().frame(photoframe);
-	
+	WebElement drag1= 	driver.findElement(By.xpath("//img[@alt='The chalet at the Green mountain lake']"));
 	WebElement drag= 	driver.findElement(By.xpath("//img[@alt='The peaks of High Tatras']"));
 	WebElement drop= 	driver.findElement(By.xpath("//div[@id='trash']"));
 
-	//WebElement eyeicon=	driver.findElement(By.xpath("//div[@class='showPassword shownhide']"));	
 	Actions act = new Actions(driver);
-	act.dragAndDrop(drag, drop).perform();
+	act.dragAndDrop(drag1, drop).perform();
+	
+driver.switchTo().defaultContent();
+
 			
 	}
 	
